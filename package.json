@@ -1,0 +1,38 @@
+{
+  "name": "sypressi",
+  "version": "1.0.0",
+  "description": "Cypress E2E automation test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "dashboard": "npx cypress open",
+    "lint:check": "npx prettier --check .", 
+    "lint:fix": "npx prettier --write ."
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tariqp193/sypressi.git"
+  },
+  "keywords": [
+    "e2e",
+    "ui",
+    "cypress",
+    "ml",
+    "automation"
+  ],
+  "author": "Tarik Pelko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tariqp193/sypressi/issues"
+  },
+  "homepage": "https://github.com/tariqp193/sypressi#readme",
+  "dependencies": {
+    "cypress": "^10.7.0",
+    "typescript": "^4.8.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "prettier": "^2.7.1"
+  }
+}
